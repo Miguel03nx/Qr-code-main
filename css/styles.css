@@ -1,0 +1,45 @@
+body{
+    background-color:  hsl(212, 45%, 89%);
+    font-size: 1.5rem;
+    font-family: Outfit;
+    font-weight: 400, 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    display: grid;
+    /* grid-template-columns: 1fr; Dos columnas, una para la imagen y otra para el texto */
+    gap: .5px; /* Espacio entre la imagen y el texto */
+    /* align-items: center; Centra el contenido verticalmente */
+    place-items: center; /* Centra el contenido en ambos ejes */
+    background-color: white;
+    width: 23rem;
+    border-radius: 5%;
+    box-shadow:  1px 1px 10px 1px gray;
+    height: 95vh;
+}
+
+.qr{
+    /* height: 20rem; */
+    border-radius: 5%;
+    margin-top: 1rem;
+    width: 90%
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.texto{
+    text-align: center;
+    padding: 0 2rem 1rem 2rem
+}
+
+.relleno{
+    opacity: 70%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
